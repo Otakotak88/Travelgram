@@ -11,10 +11,10 @@ nav ul{
     align-items: center;
     gap: 24px;
     padding: 4px;
+    font: var(--text);
 }
 nav ul li:last-child img{
     height: 40px;
     width: 40px;
     border-radius: 50%;
 }
-
