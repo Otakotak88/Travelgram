@@ -1,5 +1,5 @@
 .profile{
-    padding: 32px;
+    padding-block: 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +32,7 @@
 .info li{
     display: flex;
     gap: 8px;
-    width: 300px;
+    width: 280px;
     font: var(--text-md)
 }
 .nome{

@@ -1,0 +1,10 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-block: 24px;
+}
+main > img{
+    height: 25%;
+    width: calc(25% - 18px);
+}
