@@ -13,9 +13,6 @@
     width: 176px;
     border-radius: 50%;
 }
-.descricao{
-    max-width: 41ch;
-}
 .main div{
     align-self: center;
     display: flex;
@@ -32,10 +29,15 @@
 .info li{
     display: flex;
     gap: 8px;
-    width: 280px;
+    width: 240px;
     font: var(--text-md)
 }
 .nome{
     font: var(--text-lg);
     color: var(--text-color-primary);
+}
+.descricao{
+    max-width: 41ch;
+    font: var(--text-md);
+    color: var(--text-color-secondary);
 }
